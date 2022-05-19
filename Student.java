@@ -1,34 +1,23 @@
-package set;
+package set2;
 
-public class Student implements Comparable<Student> {
-	private int rollno;
+public class Student {
+	private int Rollno;
 	private String Name;
-	
 
 	public int getRollno() {
-		return rollno;
+		return Rollno;
 	}
-
 
 	public void setRollno(int rollno) {
-		this.rollno = rollno;
+		Rollno = rollno;
 	}
-
 
 	public String getName() {
 		return Name;
 	}
 
-
 	public void setName(String name) {
 		Name = name;
-	}
-
-
-	@Override
-	public int compareTo(Student o) {
-		// TODO Auto-generated method stub
-		return this.rollno-o.rollno;
 	}
 
 }
